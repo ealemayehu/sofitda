@@ -6,7 +6,7 @@ This project hosts the source code and dataset of the experiments specified in t
 
 ## Prerequisites
 
-### Install Yools
+### Install Tools
 
 To execute the experiments, you will need to install the following tools:
 
@@ -24,7 +24,7 @@ pip install -r python/requirements.txt
 
 ### Download Glove Embeddings
 
-The CNN and RNN classifiers require Glove Embeddings. Do the following to download the Glove Embeddings:
+The CNN and RNN classifiers require Glove Embeddings. Do the following to download and deploy the Glove Embeddings:
 
 - Download the zip file of Glove 6B from: https://nlp.stanford.edu/data/glove.6B.zip
 - Unzip the zip file, and copy the `glove.6B.100d.txt` file to the `data/embeddings` folder in this project.
@@ -56,7 +56,7 @@ The following are the valid values for the generator:
 - eda
 - gpt2
 
-The output of running the experiments is a CSV file that is stored in a directory called output
+The output of running the experiments is a CSV file that is stored in a directory called `output`
 that is created in the root directory of this project. The name of the CSV file has the following
 format:
 
@@ -64,7 +64,7 @@ format:
 results_<dataset>_tall_m<classifier>_g<generator>.csv
 ```
 
-The CSV files shows the performance metrics of the baselines and the various configurations of the
+The CSV file shows the performance metrics of the baselines and the various configurations of the
 SOFITDA models.
 
 ## Help
