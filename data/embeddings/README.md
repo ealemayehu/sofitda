@@ -1,4 +1,4 @@
-### Download Glove Embeddings
+# Download Glove Embeddings
 
 The CNN and RNN classifiers require Glove Embeddings. Do the following to download and deploy the Glove Embeddings:
 

@@ -31,7 +31,7 @@ The CNN and RNN classifiers require Glove Embeddings. Do the following to downlo
 
 ## Run Experiments
 
-For a given dataset, generator and classifier, the experiments can be run executing the following from the root directory of this project:
+For a given dataset, generator and classifier, the experiments can be run by executing the following from the root directory of this project:
 
 ```
 cd python
