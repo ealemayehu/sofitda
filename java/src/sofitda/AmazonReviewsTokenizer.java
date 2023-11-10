@@ -24,62 +24,62 @@ import java.util.List;
 //  Column 13: review_body
 //  Column 14: review_date
 public class AmazonReviewsTokenizer extends AbstractDocumentsTokenizer {
-	public AmazonReviewsTokenizer() throws IOException {
-		super("amazon", true /* hasResponse */);
+  public AmazonReviewsTokenizer() throws IOException {
+    super("amazon", true /* hasResponse */);
 
-		initialize("all");
+    initialize("all");
 
-		processDocuments("amazon_reviews_us_Camera_v1_00.tsv", 40000);
+    processDocuments("amazon_reviews_us_Camera_v1_00.tsv", 40000);
 
-		done("all", true /* isLastPrefix */);
-	}
+    done("all", true /* isLastPrefix */);
+  }
 
-	public void processDocuments(String filename, int reviewCount) throws IOException {
-		String reviewFilePath = rawDataDirectory.getAbsolutePath() + "/" + filename;
-		BufferedReader reader = new BufferedReader(new FileReader(reviewFilePath));
-		boolean firstLine = true;
-		int count = 0;
-		int errorCount = 0;
+  public void processDocuments(String filename, int reviewCount) throws IOException {
+    String reviewFilePath = rawDataDirectory.getAbsolutePath() + "/" + filename;
+    BufferedReader reader = new BufferedReader(new FileReader(reviewFilePath));
+    boolean firstLine = true;
+    int count = 0;
+    int errorCount = 0;
 
-		while (true) {
-			try {
-				String[] columns = reader.readLine().split("\t");
+    while (true) {
+      try {
+        String[] columns = reader.readLine().split("\t");
 
-				if (firstLine) {
-					for (int j = 0; j < columns.length; j++) {
-						System.out.println("Column " + j + ": " + columns[j]);
-					}
+        if (firstLine) {
+          for (int j = 0; j < columns.length; j++) {
+            System.out.println("Column " + j + ": " + columns[j]);
+          }
 
-					firstLine = false;
-				} else {
-					String review = columns[13];
-					int rating = Integer.parseInt(columns[7]);
+          firstLine = false;
+        } else {
+          String review = columns[13];
+          int rating = Integer.parseInt(columns[7]);
 
-					processDocument(review.replace("<br />", "\n"), rating);
-					count++;
+          processDocument(review.replace("<br />", "\n"), rating);
+          count++;
 
-					if (count == reviewCount) {
-						break;
-					}
-				}
-			} catch (Exception e) {
-				e.printStackTrace();
-				errorCount++;
-			}
-		}
+          if (count == reviewCount) {
+            break;
+          }
+        }
+      } catch (Exception e) {
+        e.printStackTrace();
+        errorCount++;
+      }
+    }
 
-		reader.close();
+    reader.close();
 
-		System.out.println("Count: " + count + ", Error Count: " + errorCount);
-	}
+    System.out.println("Count: " + count + ", Error Count: " + errorCount);
+  }
 
-	protected List<String> tokenize(String document) {
-		String[] tokens = document.split("[\\s\"']+");
+  protected List<String> tokenize(String document) {
+    String[] tokens = document.split("[\\s\"']+");
 
-		return Arrays.asList(tokens);
-	}
+    return Arrays.asList(tokens);
+  }
 
-	protected boolean excludeTerminators() {
-		return true;
-	}
+  protected boolean excludeTerminators() {
+    return true;
+  }
 }

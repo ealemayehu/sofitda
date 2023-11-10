@@ -10,39 +10,39 @@ import org.json.JSONObject;
 import org.json.JSONTokener;
 
 public class YelpReviewsTokenizer extends AbstractDocumentsTokenizer {
-	private BufferedReader reader;
+  private BufferedReader reader;
 
-	public YelpReviewsTokenizer(int maxReviewCount) throws IOException {
-		super("yelp", true /* hasResponse */);
+  public YelpReviewsTokenizer(int maxReviewCount) throws IOException {
+    super("yelp", true /* hasResponse */);
 
-		initialize("all");
+    initialize("all");
 
-		String reviewFilePath = rawDataDirectory.getAbsolutePath() + "/review.json";
+    String reviewFilePath = rawDataDirectory.getAbsolutePath() + "/review.json";
 
-		reader = new BufferedReader(new FileReader(reviewFilePath));
+    reader = new BufferedReader(new FileReader(reviewFilePath));
 
-		String line = null;
+    String line = null;
 
-		for (int i = 0; i < maxReviewCount && (line = reader.readLine()) != null; i++) {
-			JSONTokener tokener = new JSONTokener(line);
-			JSONObject json = new JSONObject(tokener);
-			String text = json.getString("text");
-			int response = json.getInt("stars");
+    for (int i = 0; i < maxReviewCount && (line = reader.readLine()) != null; i++) {
+      JSONTokener tokener = new JSONTokener(line);
+      JSONObject json = new JSONObject(tokener);
+      String text = json.getString("text");
+      int response = json.getInt("stars");
 
-			processDocument(text, response);
-		}
+      processDocument(text, response);
+    }
 
-		done("all", true /* isLastPrefix */);
-		reader.close();
-	}
+    done("all", true /* isLastPrefix */);
+    reader.close();
+  }
 
-	protected List<String> tokenize(String document) {
-		String[] tokens = document.split("[\\s]+");
+  protected List<String> tokenize(String document) {
+    String[] tokens = document.split("[\\s]+");
 
-		return Arrays.asList(tokens);
-	}
+    return Arrays.asList(tokens);
+  }
 
-	protected boolean excludeTerminators() {
-		return true;
-	}
+  protected boolean excludeTerminators() {
+    return true;
+  }
 }

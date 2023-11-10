@@ -8,72 +8,72 @@ import java.util.Arrays;
 import java.util.List;
 
 public class DataAugmentationTokenizer extends AbstractDocumentsTokenizer {
-	public DataAugmentationTokenizer(String name) throws IOException {
-		super(name, true /* hasResponse */);
+  public DataAugmentationTokenizer(String name) throws IOException {
+    super(name, true /* hasResponse */);
 
-		createDataset("training", false /* isLastPrefix */);
-		createDataset("validation", false /* isLastPrefix */);
-		createDataset("testing", true /* isLastPrefix */);
-	}
+    createDataset("training", false /* isLastPrefix */);
+    createDataset("validation", false /* isLastPrefix */);
+    createDataset("testing", true /* isLastPrefix */);
+  }
 
-	private void createDataset(String prefix, boolean isLastPrefix) throws NumberFormatException, IOException {
-		initialize(prefix);
+  private void createDataset(String prefix, boolean isLastPrefix) throws NumberFormatException, IOException {
+    initialize(prefix);
 
-		String documentWordDatasetTextFilePath = this.rawDataDirectory.getAbsolutePath() + "/"
-		    + String.format(Constants.DOCUMENT_WORD_DATASET_TEXT_FILENAME_FORMAT, prefix);
+    String documentWordDatasetTextFilePath = this.rawDataDirectory.getAbsolutePath() + "/"
+        + String.format(Constants.DOCUMENT_WORD_DATASET_TEXT_FILENAME_FORMAT, prefix);
 
-		BufferedReader reader = new BufferedReader(new FileReader(documentWordDatasetTextFilePath));
-		String line;
+    BufferedReader reader = new BufferedReader(new FileReader(documentWordDatasetTextFilePath));
+    String line;
 
-		while ((line = reader.readLine()) != null) {
-			int firstSpaceIndex = line.indexOf(' ');
-			int secondSpaceIndex = line.indexOf(' ', firstSpaceIndex + 1);
-			int responseId = Integer.parseInt(line.substring(firstSpaceIndex + 1, secondSpaceIndex));
-			String document = line.substring(secondSpaceIndex);
+    while ((line = reader.readLine()) != null) {
+      int firstSpaceIndex = line.indexOf(' ');
+      int secondSpaceIndex = line.indexOf(' ', firstSpaceIndex + 1);
+      int responseId = Integer.parseInt(line.substring(firstSpaceIndex + 1, secondSpaceIndex));
+      String document = line.substring(secondSpaceIndex);
 
-			processDocument(document, responseId);
-		}
+      processDocument(document, responseId);
+    }
 
-		if (prefix.contentEquals("training")) {
-			for (int i = 0; i < this.responseIdMap.size(); i++) {
-				augmentGenerated(i);
-			}
-		}
+    if (prefix.contentEquals("training")) {
+      for (int i = 0; i < this.responseIdMap.size(); i++) {
+        augmentGenerated(i);
+      }
+    }
 
-		reader.close();
-		done(prefix, isLastPrefix);
-	}
+    reader.close();
+    done(prefix, isLastPrefix);
+  }
 
-	private boolean augmentGenerated(int responseId) throws IOException {
-		String generatedFilename = this.rawDataDirectory.getAbsolutePath() + "/"
-		    + String.format("generated_%d.txt", responseId);
-		File file = new File(generatedFilename);
+  private boolean augmentGenerated(int responseId) throws IOException {
+    String generatedFilename = this.rawDataDirectory.getAbsolutePath() + "/"
+        + String.format("generated_%d.txt", responseId);
+    File file = new File(generatedFilename);
 
-		if (!file.exists()) {
-			return false;
-		}
-		
-		System.out.println("Loading generated file " + generatedFilename);
+    if (!file.exists()) {
+      return false;
+    }
 
-		BufferedReader reader = new BufferedReader(new FileReader(generatedFilename));
-		String line;
+    System.out.println("Loading generated file " + generatedFilename);
 
-		while ((line = reader.readLine()) != null) {
-			line = line.replace("[BEGIN] ", "").replace(" [END]", "");
-			processDocument(line, responseId);
-		}
+    BufferedReader reader = new BufferedReader(new FileReader(generatedFilename));
+    String line;
 
-		reader.close();
-		return true;
-	}
+    while ((line = reader.readLine()) != null) {
+      line = line.replace("[BEGIN] ", "").replace(" [END]", "");
+      processDocument(line, responseId);
+    }
 
-	protected List<String> tokenize(String document) {
-		String[] tokens = document.split("[\\s]+");
+    reader.close();
+    return true;
+  }
 
-		return Arrays.asList(tokens);
-	}
+  protected List<String> tokenize(String document) {
+    String[] tokens = document.split("[\\s]+");
 
-	protected boolean excludeTerminators() {
-		return true;
-	}
+    return Arrays.asList(tokens);
+  }
+
+  protected boolean excludeTerminators() {
+    return true;
+  }
 }

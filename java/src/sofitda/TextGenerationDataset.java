@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import java.util.Map;
 
 public class TextGenerationDataset {
-	public TextGenerationDataset() throws IOException {
+  public TextGenerationDataset() throws IOException {
 		String documentWordDatasetFilePath = String
 		    .format(Configuration.STAGE3_DIRECTORY + "/" + Constants.DOCUMENT_WORD_DATASET_FILENAME_FORMAT, "training");
 		String responseDatasetFilePath = Configuration.STAGE3_DIRECTORY + "/"

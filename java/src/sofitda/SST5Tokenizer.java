@@ -29,7 +29,7 @@ public class SST5Tokenizer extends AbstractDocumentsTokenizer {
     for (int i = 0; i < 5; i++) {
       responseMap.put(i, new ArrayList<>());
     }
-    
+
     responseIdMap.put("very negative", 0);
     responseIdMap.put("negative", 1);
     responseIdMap.put("neutral", 2);
@@ -67,7 +67,7 @@ public class SST5Tokenizer extends AbstractDocumentsTokenizer {
 
     reader.close();
   }
-  
+
   protected boolean excludeTerminators() {
     return true;
   }

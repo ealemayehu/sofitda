@@ -13,29 +13,27 @@ import java.util.TreeMap;
 
 public class ExtraDatasetGenerator {
   public ExtraDatasetGenerator() throws IOException {
-    Map<Integer, String> vocabulary = Helper.readSingleColumnStringMap(
-        Configuration.STAGE3_DIRECTORY + "/" + Constants.VOCABULARY_FILENAME, 1);
+    Map<Integer, String> vocabulary = Helper
+        .readSingleColumnStringMap(Configuration.STAGE3_DIRECTORY + "/" + Constants.VOCABULARY_FILENAME, 1);
     String[] prefixes = { "all", "training", "validation", "testing" };
 
     for (String prefix : prefixes) {
-      String sentenceDatasetFilePath = String.format(Configuration.STAGE3_DIRECTORY + "/"
-          + Constants.SENTENCE_DATASET_FILENAME_FORMAT, prefix);
-      String sentenceDatasetTextFilePath = String.format(Configuration.STAGE3_DIRECTORY + "/"
-          + Constants.SENTENCE_DATASET_TEXT_FILENAME_FORMAT, prefix);
-      String wordDatasetFilePath = String.format(Configuration.STAGE3_DIRECTORY + "/"
-          + Constants.WORD_DATASET_FILENAME_FORMAT, prefix);
-      String documentWordDatasetFilePath = String.format(Configuration.STAGE3_DIRECTORY + "/"
-          + Constants.DOCUMENT_WORD_DATASET_FILENAME_FORMAT, prefix);
-      String documentWordDatasetTextFilePath = String.format(Configuration.STAGE3_DIRECTORY + "/"
-          + Constants.DOCUMENT_WORD_DATASET_TEXT_FILENAME_FORMAT, prefix);
-  		String responseDatasetFilePath = Configuration.STAGE3_DIRECTORY + "/"
-  		    + String.format(Constants.RESPONSE_DATASET_FILENAME_FORMAT, prefix);
-      
+      String sentenceDatasetFilePath = String
+          .format(Configuration.STAGE3_DIRECTORY + "/" + Constants.SENTENCE_DATASET_FILENAME_FORMAT, prefix);
+      String sentenceDatasetTextFilePath = String
+          .format(Configuration.STAGE3_DIRECTORY + "/" + Constants.SENTENCE_DATASET_TEXT_FILENAME_FORMAT, prefix);
+      String wordDatasetFilePath = String
+          .format(Configuration.STAGE3_DIRECTORY + "/" + Constants.WORD_DATASET_FILENAME_FORMAT, prefix);
+      String documentWordDatasetFilePath = String
+          .format(Configuration.STAGE3_DIRECTORY + "/" + Constants.DOCUMENT_WORD_DATASET_FILENAME_FORMAT, prefix);
+      String documentWordDatasetTextFilePath = String
+          .format(Configuration.STAGE3_DIRECTORY + "/" + Constants.DOCUMENT_WORD_DATASET_TEXT_FILENAME_FORMAT, prefix);
+      String responseDatasetFilePath = Configuration.STAGE3_DIRECTORY + "/"
+          + String.format(Constants.RESPONSE_DATASET_FILENAME_FORMAT, prefix);
 
-      createSentenceTextDatasetFile(sentenceDatasetFilePath, vocabulary,
-          sentenceDatasetTextFilePath);
+      createSentenceTextDatasetFile(sentenceDatasetFilePath, vocabulary, sentenceDatasetTextFilePath);
       createDocumentWordTextDatasetFile(documentWordDatasetFilePath, responseDatasetFilePath, vocabulary,
-      		documentWordDatasetTextFilePath);
+          documentWordDatasetTextFilePath);
       createWordDatasetFile(sentenceDatasetFilePath, wordDatasetFilePath);
     }
   }
@@ -48,8 +46,8 @@ public class ExtraDatasetGenerator {
     PrintWriter writer = new PrintWriter(outputFilePath);
 
     for (int sentenceId : sentenceMap.keySet()) {
-    	writer.write(sentenceId + " ");
-    	
+      writer.write(sentenceId + " ");
+
       for (int wordId : sentenceMap.get(sentenceId)) {
         writer.write(vocabulary.get(wordId));
         writer.write(" ");
@@ -60,41 +58,40 @@ public class ExtraDatasetGenerator {
 
     writer.close();
   }
-  
-  private void createDocumentWordTextDatasetFile(String documentWordDatasetFilePath, String responseDatasetFilePath, Map<Integer, String> vocabulary,
-      String outputFilePath) throws IOException {
+
+  private void createDocumentWordTextDatasetFile(String documentWordDatasetFilePath, String responseDatasetFilePath,
+      Map<Integer, String> vocabulary, String outputFilePath) throws IOException {
     System.out.println("Creating document word dataset text file " + outputFilePath + "...");
 
-		Map<Integer, int[]> documentWordDatasetMap = Helper.readMultiColumnIntegerMap(documentWordDatasetFilePath);
-		Map<Integer, int[]> responseMap = Helper.readMultiColumnIntegerMap(responseDatasetFilePath);
-		Map<Integer, Integer> documentResponseMap = new HashMap<>();
-		
-		for (int responseId: responseMap.keySet()) {
-			for (int documentId: responseMap.get(responseId)) {
-				documentResponseMap.put(documentId, responseId);
-			}
-		}
-		
-		PrintWriter writer = new PrintWriter(outputFilePath);
+    Map<Integer, int[]> documentWordDatasetMap = Helper.readMultiColumnIntegerMap(documentWordDatasetFilePath);
+    Map<Integer, int[]> responseMap = Helper.readMultiColumnIntegerMap(responseDatasetFilePath);
+    Map<Integer, Integer> documentResponseMap = new HashMap<>();
 
-		for (int documentId : documentWordDatasetMap.keySet()) {
-			writer.write(documentId + " " + documentResponseMap.get(documentId) + " ");
-			
-			for (int wordId : documentWordDatasetMap.get(documentId)) {
-				String word = vocabulary.get(wordId);
-				
-				writer.write(word);
-				writer.write(" ");
-			}
-			
-			writer.write("\n");
-		}
+    for (int responseId : responseMap.keySet()) {
+      for (int documentId : responseMap.get(responseId)) {
+        documentResponseMap.put(documentId, responseId);
+      }
+    }
 
-		writer.close();
-	}
+    PrintWriter writer = new PrintWriter(outputFilePath);
 
-  private void createWordDatasetFile(String inputFilePath, String outputFilePath)
-      throws IOException {
+    for (int documentId : documentWordDatasetMap.keySet()) {
+      writer.write(documentId + " " + documentResponseMap.get(documentId) + " ");
+
+      for (int wordId : documentWordDatasetMap.get(documentId)) {
+        String word = vocabulary.get(wordId);
+
+        writer.write(word);
+        writer.write(" ");
+      }
+
+      writer.write("\n");
+    }
+
+    writer.close();
+  }
+
+  private void createWordDatasetFile(String inputFilePath, String outputFilePath) throws IOException {
     System.out.println("Creating word dataset file " + outputFilePath + "...");
 
     BufferedReader reader = new BufferedReader(new FileReader(inputFilePath));

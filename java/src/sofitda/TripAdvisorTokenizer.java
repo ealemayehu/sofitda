@@ -11,52 +11,51 @@ import org.json.JSONTokener;
 
 import java.nio.charset.Charset;
 
-public class TripAdvisorTokenizer  extends AbstractDocumentsTokenizer {
-	private BufferedReader reader;
+public class TripAdvisorTokenizer extends AbstractDocumentsTokenizer {
+  private BufferedReader reader;
 
-	public TripAdvisorTokenizer(int maxReviewCount) throws IOException {
-		super("tripadvisor", true /* hasResponse */);
+  public TripAdvisorTokenizer(int maxReviewCount) throws IOException {
+    super("tripadvisor", true /* hasResponse */);
 
-		initialize("all");
+    initialize("all");
 
-		String reviewFilePath = rawDataDirectory.getAbsolutePath() + "/review.json";
+    String reviewFilePath = rawDataDirectory.getAbsolutePath() + "/review.json";
 
-		reader = new BufferedReader(new FileReader(reviewFilePath));
+    reader = new BufferedReader(new FileReader(reviewFilePath));
 
-		String line = null;
+    String line = null;
 
-		for (int i = 0; i < maxReviewCount && (line = reader.readLine()) != null; i++) {
-			JSONTokener tokener = new JSONTokener(line);
-			JSONObject json = new JSONObject(tokener);
-			String text = json.getString("text").trim();
-			
-			if (!isPureAscii(text)) {
-				continue;
-			}
+    for (int i = 0; i < maxReviewCount && (line = reader.readLine()) != null; i++) {
+      JSONTokener tokener = new JSONTokener(line);
+      JSONObject json = new JSONObject(tokener);
+      String text = json.getString("text").trim();
 
-			int response = (int)Math.round((json.getJSONObject("ratings").getFloat("overall")));
+      if (!isPureAscii(text)) {
+        continue;
+      }
 
-			if (response == 0) {
-				continue;
-			}
+      int response = (int) Math.round((json.getJSONObject("ratings").getFloat("overall")));
 
-			processDocument(text, response);
-		}
+      if (response == 0) {
+        continue;
+      }
 
-		done("all", true /* isLastPrefix */);
-		reader.close();
-	}
+      processDocument(text, response);
+    }
 
-	protected List<String> tokenize(String document) {
-		String[] tokens = document.split("[\\s]+");
+    done("all", true /* isLastPrefix */);
+    reader.close();
+  }
 
-		return Arrays.asList(tokens);
-	}
+  protected List<String> tokenize(String document) {
+    String[] tokens = document.split("[\\s]+");
 
-	protected boolean excludeTerminators() {
-		return true;
-	}
-	
+    return Arrays.asList(tokens);
+  }
+
+  protected boolean excludeTerminators() {
+    return true;
+  }
 
   private boolean isPureAscii(String v) {
     return Charset.forName("US-ASCII").newEncoder().canEncode(v);
