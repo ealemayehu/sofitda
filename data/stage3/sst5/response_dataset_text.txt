@@ -1,0 +1,5 @@
+negative 1
+neutral 2
+positive 3
+very negative 0
+very positive 4

@@ -1,0 +1,8 @@
+gpt-2-simple
+tensorflow
+tensorflow_hub
+tensorflow_text
+tf-models-official
+scipy
+scikit-learn
+nltk

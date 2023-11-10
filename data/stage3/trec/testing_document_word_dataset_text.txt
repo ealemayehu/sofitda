@@ -1,0 +1,500 @@
+15452 4 How far is it from Denver to Aspen ? 
+15453 5 What county is Modesto , California in ? 
+15454 3 Who was Galileo ? 
+15455 0 What is an atom ? 
+15456 4 When did Hawaii become a state ? 
+15457 4 How tall is the Sears Building ? 
+15458 3 George Bush purchased a small interest in which baseball team ? 
+15459 1 What is Australia 's national flower ? 
+15460 0 Why does the moon turn orange ? 
+15461 0 What is autism ? 
+15462 5 What city had a world fair in 1900 ? 
+15463 3 What person 's head is on a dime ? 
+15464 4 What is the average weight of a Yellow Labrador ? 
+15465 3 Who was the first man to fly across the Pacific Ocean ? 
+15466 4 When did Idaho become a state ? 
+15467 4 What is the life expectancy for crickets ? 
+15468 1 What metal has the highest melting point ? 
+15469 3 Who developed the vaccination against polio ? 
+15470 0 What is epilepsy ? 
+15471 4 What year did the Titanic sink ? 
+15472 3 Who was the first American to walk in space ? 
+15473 0 What is a biosphere ? 
+15474 5 What river in the US is known as the Big Muddy ? 
+15475 0 What is bipolar disorder ? 
+15476 0 What is cholesterol ? 
+15477 3 Who developed the Macintosh computer ? 
+15478 0 What is caffeine ? 
+15479 5 What imaginary line is halfway between the North and South Poles ? 
+15480 5 Where is John Wayne airport ? 
+15481 5 What hemisphere is the Philippines in ? 
+15482 4 What is the average speed of the horses at the Kentucky Derby ? 
+15483 5 Where are the Rocky Mountains ? 
+15484 0 What are invertebrates ? 
+15485 4 What is the temperature at the center of the earth ? 
+15486 4 When did John F. Kennedy get elected as President ? 
+15487 4 How old was Elvis Presley when he died ? 
+15488 5 Where is the Orinoco River ? 
+15489 4 How far is the service line from the net in tennis ? 
+15490 4 How much fiber should you have per day ? 
+15491 4 How many Great Lakes are there ? 
+15492 1 Material called linen is made from what plant ? 
+15493 0 What is Teflon ? 
+15494 0 What is amitriptyline ? 
+15495 0 What is a shaman ? 
+15496 1 What is the proper name for a female walrus ? 
+15497 1 What is a group of turkeys called ? 
+15498 4 How long did Rip Van Winkle sleep ? 
+15499 0 What are triglycerides ? 
+15500 4 How many liters in a gallon ? 
+15501 3 What is the name of the chocolate company in San Francisco ? 
+15502 0 What are amphibians ? 
+15503 3 Who discovered x-rays ? 
+15504 3 Which comedian 's signature line is `` Can we talk '' ? 
+15505 0 What is fibromyalgia ? 
+15506 0 What is done with worn or outdated flags ? 
+15507 0 What does cc in engines mean ? 
+15508 4 When did Elvis Presley die ? 
+15509 5 What is the capital of Yugoslavia ? 
+15510 5 Where is Milan ? 
+15511 4 What is the speed hummingbirds fly ? 
+15512 5 What is the oldest city in the United States ? 
+15513 3 What was W.C. Fields ' real name ? 
+15514 5 What river flows between Fargo , North Dakota and Moorhead , Minnesota ? 
+15515 1 What do bats eat ? 
+15516 5 What state did the Battle of Bighorn take place in ? 
+15517 3 Who was Abraham Lincoln ? 
+15518 1 What do you call a newborn kangaroo ? 
+15519 0 What are spider veins ? 
+15520 4 What day and month did John Lennon die ? 
+15521 5 What strait separates North America from Asia ? 
+15522 4 What is the population of Seattle ? 
+15523 4 How much was a ticket for the Titanic ? 
+15524 5 What is the largest city in the world ? 
+15525 3 What American composer wrote the music for `` West Side Story '' ? 
+15526 5 Where is the Mall of the America ? 
+15527 0 What is the pH scale ? 
+15528 1 What type of currency is used in Australia ? 
+15529 4 How tall is the Gateway Arch in St. Louis , MO ? 
+15530 4 How much does the human adult female brain weigh ? 
+15531 3 Who was the first governor of Alaska ? 
+15532 0 What is a prism ? 
+15533 4 When was the first liver transplant ? 
+15534 3 Who was elected president of South Africa in 1994 ? 
+15535 4 What is the population of China ? 
+15536 4 When was Rosa Parks born ? 
+15537 0 Why is a ladybug helpful ? 
+15538 0 What is amoxicillin ? 
+15539 3 Who was the first female United States Representative ? 
+15540 0 What are xerophytes ? 
+15541 5 What country did Ponce de Leon come from ? 
+15542 1 The U.S. Department of Treasury first issued paper currency for the U.S. during which war ? 
+15543 0 What is desktop publishing ? 
+15544 4 What is the temperature of the sun 's surface ? 
+15545 4 What year did Canada join the United Nations ? 
+15546 3 What is the oldest university in the US ? 
+15547 5 Where is Prince Edward Island ? 
+15548 4 Mercury , what year was it discovered ? 
+15549 0 What is cryogenics ? 
+15550 0 What are coral reefs ? 
+15551 1 What is the longest major league baseball-winning streak ? 
+15552 0 What is neurology ? 
+15553 3 Who invented the calculator ? 
+15554 0 How do you measure earthquakes ? 
+15555 3 Who is Duke Ellington ? 
+15556 5 What county is Phoenix , AZ in ? 
+15557 0 What is a micron ? 
+15558 4 The sun 's core , what is the temperature ? 
+15559 1 What is the Ohio state bird ? 
+15560 4 When were William Shakespeare 's twins born ? 
+15561 5 What is the highest dam in the U.S. ? 
+15562 1 What color is a poison arrow frog ? 
+15563 0 What is acupuncture ? 
+15564 4 What is the length of the coastline of the state of Alaska ? 
+15565 3 What is the name of Neil Armstrong 's wife ? 
+15566 1 What is Hawaii 's state flower ? 
+15567 3 Who won Ms. American in 1989 ? 
+15568 4 When did the Hindenberg crash ? 
+15569 1 What mineral helps prevent osteoporosis ? 
+15570 4 What was the last year that the Chicago Cubs won the World Series ? 
+15571 5 Where is Perth ? 
+15572 4 What year did WWII begin ? 
+15573 4 What is the diameter of a golf ball ? 
+15574 0 What is an eclipse ? 
+15575 3 Who discovered America ? 
+15576 4 What is the earth 's diameter ? 
+15577 3 Which president was unmarried ? 
+15578 4 How wide is the Milky Way galaxy ? 
+15579 4 During which season do most thunderstorms occur ? 
+15580 0 What is Wimbledon ? 
+15581 4 What is the gestation period for a cat ? 
+15582 4 How far is a nautical mile ? 
+15583 3 Who was the abolitionist who led the raid on Harper 's Ferry in 1859 ? 
+15584 0 What does target heart rate mean ? 
+15585 1 What was the first satellite to go into space ? 
+15586 0 What is foreclosure ? 
+15587 1 What is the major fault line near Kentucky ? 
+15588 5 Where is the Holland Tunnel ? 
+15589 3 Who wrote the hymn `` Amazing Grace '' ? 
+15590 3 What position did Willie Davis play in baseball ? 
+15591 0 What are platelets ? 
+15592 0 What is severance pay ? 
+15593 1 What is the name of Roy Roger 's dog ? 
+15594 5 Where are the National Archives ? 
+15595 1 What is a baby turkey called ? 
+15596 0 What is poliomyelitis ? 
+15597 1 What is the longest bone in the human body ? 
+15598 3 Who is a German philosopher ? 
+15599 1 What were Christopher Columbus ' three ships ? 
+15600 0 What does Phi Beta Kappa mean ? 
+15601 0 What is nicotine ? 
+15602 1 What is another name for vitamin B1 ? 
+15603 3 Who discovered radium ? 
+15604 0 What are sunspots ? 
+15605 4 When was Algeria colonized ? 
+15606 3 What baseball team was the first to make numbers part of their uniform ? 
+15607 5 What continent is Egypt on ? 
+15608 5 What is the capital of Mongolia ? 
+15609 0 What is nanotechnology ? 
+15610 5 In the late 1700 's British convicts were used to populate which colony ? 
+15611 5 What state is the geographic center of the lower 48 states ? 
+15612 0 What is an obtuse angle ? 
+15613 0 What are polymers ? 
+15614 4 When is hurricane season in the Caribbean ? 
+15615 5 Where is the volcano Mauna Loa ? 
+15616 1 What is another astronomic term for the Northern Lights ? 
+15617 5 What peninsula is Spain part of ? 
+15618 4 When was Lyndon B. Johnson born ? 
+15619 0 What is acetaminophen ? 
+15620 5 What state has the least amount of rain per year ? 
+15621 3 Who founded American Red Cross ? 
+15622 4 What year did the Milwaukee Braves become the Atlanta Braves ? 
+15623 4 How fast is alcohol absorbed ? 
+15624 4 When is the summer solstice ? 
+15625 0 What is supernova ? 
+15626 5 Where is the Shawnee National Forest ? 
+15627 5 What U.S. state 's motto is `` Live free or Die '' ? 
+15628 5 Where is the Lourve ? 
+15629 4 When was the first stamp issued ? 
+15630 1 What primary colors do you mix to make orange ? 
+15631 4 How far is Pluto from the sun ? 
+15632 5 What body of water are the Canary Islands in ? 
+15633 0 What is neuropathy ? 
+15634 5 Where is the Euphrates River ? 
+15635 0 What is cryptography ? 
+15636 1 What is natural gas composed of ? 
+15637 3 Who is the Prime Minister of Canada ? 
+15638 3 What French ruler was defeated at the battle of Waterloo ? 
+15639 0 What is leukemia ? 
+15640 5 Where did Howard Hughes die ? 
+15641 1 What is the birthstone for June ? 
+15642 1 What is the sales tax in Minnesota ? 
+15643 4 What is the distance in miles from the earth to the sun ? 
+15644 4 What is the average life span for a chicken ? 
+15645 4 When was the first Wal-Mart store opened ? 
+15646 0 What is relative humidity ? 
+15647 5 What city has the zip code of 35824 ? 
+15648 1 What currency is used in Algeria ? 
+15649 3 Who invented the hula hoop ? 
+15650 1 What was the most popular toy in 1957 ? 
+15651 1 What is pastrami made of ? 
+15652 1 What is the name of the satellite that the Soviet Union sent into space in 1957 ? 
+15653 5 What city 's newspaper is called `` The Enquirer '' ? 
+15654 3 Who invented the slinky ? 
+15655 1 What are the animals that don 't have backbones called ? 
+15656 4 What is the melting point of copper ? 
+15657 5 Where is the volcano Olympus Mons located ? 
+15658 3 Who was the 23rd president of the United States ? 
+15659 4 What is the average body temperature ? 
+15660 0 What does a defibrillator do ? 
+15661 0 What is the effect of acid rain ? 
+15662 4 What year did the United States abolish the draft ? 
+15663 4 How fast is the speed of light ? 
+15664 5 What province is Montreal in ? 
+15665 5 What New York City structure is also known as the Twin Towers ? 
+15666 0 What is fungus ? 
+15667 1 What is the most frequently spoken language in the Netherlands ? 
+15668 0 What is sodium chloride ? 
+15669 1 What are the spots on dominoes called ? 
+15670 4 How many pounds in a ton ? 
+15671 0 What is influenza ? 
+15672 0 What is ozone depletion ? 
+15673 4 What year was the Mona Lisa painted ? 
+15674 0 What does `` Sitting Shiva '' mean ? 
+15675 1 What is the electrical output in Madrid , Spain ? 
+15676 5 Which mountain range in North America stretches from Maine to Georgia ? 
+15677 1 What is plastic made of ? 
+15678 4 What is the population of Nigeria ? 
+15679 0 What does your spleen do ? 
+15680 5 Where is the Grand Canyon ? 
+15681 3 Who invented the telephone ? 
+15682 4 What year did the U.S. buy Alaska ? 
+15683 3 What is the name of the leader of Ireland ? 
+15684 0 What is phenylalanine ? 
+15685 4 How many gallons of water are there in a cubic foot ? 
+15686 1 What are the two houses of the Legislative branch ? 
+15687 0 What is sonar ? 
+15688 5 In Poland , where do most people live ? 
+15689 0 What is phosphorus ? 
+15690 5 What is the location of the Sea of Tranquility ? 
+15691 4 How fast is sound ? 
+15692 5 What French province is cognac produced in ? 
+15693 0 What is Valentine 's Day ? 
+15694 0 What causes gray hair ? 
+15695 0 What is hypertension ? 
+15696 0 What is bandwidth ? 
+15697 5 What is the longest suspension bridge in the U.S. ? 
+15698 0 What is a parasite ? 
+15699 0 What is home equity ? 
+15700 0 What do meteorologists do ? 
+15701 1 What is the criterion for being legally blind ? 
+15702 3 Who is the tallest man in the world ? 
+15703 5 What are the twin cities ? 
+15704 1 What did Edward Binney and Howard Smith invent in 1903 ? 
+15705 1 What is the statue of liberty made of ? 
+15706 0 What is pilates ? 
+15707 5 What planet is known as the `` red '' planet ? 
+15708 4 What is the depth of the Nile river ? 
+15709 1 What is the colorful Korean traditional dress called ? 
+15710 0 What is Mardi Gras ? 
+15711 4 Mexican pesos are worth what in U.S. dollars ? 
+15712 3 Who was the first African American to play for the Brooklyn Dodgers ? 
+15713 3 Who was the first Prime Minister of Canada ? 
+15714 4 How many Admirals are there in the U.S. Navy ? 
+15715 1 What instrument did Glenn Miller play ? 
+15716 4 How old was Joan of Arc when she died ? 
+15717 0 What does the word fortnight mean ? 
+15718 0 What is dianetics ? 
+15719 5 What is the capital of Ethiopia ? 
+15720 4 For how long is an elephant pregnant ? 
+15721 0 How did Janice Joplin die ? 
+15722 1 What is the primary language in Iceland ? 
+15723 0 What is the difference between AM radio stations and FM radio stations ? 
+15724 0 What is osteoporosis ? 
+15725 3 Who was the first woman governor in the U.S. ? 
+15726 0 What is peyote ? 
+15727 0 What is the esophagus used for ? 
+15728 0 What is viscosity ? 
+15729 4 What year did Oklahoma become a state ? 
+15730 2 What is the abbreviation for Texas ? 
+15731 1 What is a mirror made out of ? 
+15732 5 Where on the body is a mortarboard worn ? 
+15733 3 What was J.F.K. 's wife 's name ? 
+15734 2 What does I.V. stand for ? 
+15735 0 What is the chunnel ? 
+15736 5 Where is Hitler buried ? 
+15737 0 What are antacids ? 
+15738 0 What is pulmonary fibrosis ? 
+15739 0 What are Quaaludes ? 
+15740 0 What is naproxen ? 
+15741 0 What is strep throat ? 
+15742 5 What is the largest city in the U.S. ? 
+15743 1 What is foot and mouth disease ? 
+15744 4 What is the life expectancy of a dollar bill ? 
+15745 1 What do you call a professional map drawer ? 
+15746 0 What are Aborigines ? 
+15747 0 What is hybridization ? 
+15748 1 What color is indigo ? 
+15749 4 How old do you have to be in order to rent a car in Italy ? 
+15750 1 What does a barometer measure ? 
+15751 1 What color is a giraffe 's tongue ? 
+15752 2 What does USPS stand for ? 
+15753 4 What year did the NFL go on strike ? 
+15754 0 What is solar wind ? 
+15755 4 What date did Neil Armstrong land on the moon ? 
+15756 4 When was Hiroshima bombed ? 
+15757 5 Where is the Savannah River ? 
+15758 3 Who was the first woman killed in the Vietnam War ? 
+15759 5 What planet has the strongest magnetic field of all the planets ? 
+15760 3 Who is the governor of Alaska ? 
+15761 4 What year did Mussolini seize power in Italy ? 
+15762 5 What is the capital of Persia ? 
+15763 5 Where is the Eiffel Tower ? 
+15764 4 How many hearts does an octopus have ? 
+15765 0 What is pneumonia ? 
+15766 5 What is the deepest lake in the US ? 
+15767 0 What is a fuel cell ? 
+15768 3 Who was the first U.S. president to appear on TV ? 
+15769 5 Where is the Little League Museum ? 
+15770 1 What are the two types of twins ? 
+15771 5 What is the brightest star ? 
+15772 0 What is diabetes ? 
+15773 4 When was President Kennedy shot ? 
+15774 2 What is TMJ ? 
+15775 1 What color is yak milk ? 
+15776 4 What date was Dwight D. Eisenhower born ? 
+15777 2 What does the technical term ISDN mean ? 
+15778 0 Why is the sun yellow ? 
+15779 4 What is the conversion rate between dollars and pounds ? 
+15780 4 When was Abraham Lincoln born ? 
+15781 0 What is the Milky Way ? 
+15782 0 What is mold ? 
+15783 4 What year was Mozart born ? 
+15784 1 What is a group of frogs called ? 
+15785 1 What is the name of William Penn 's ship ? 
+15786 4 What is the melting point of gold ? 
+15787 5 What is the street address of the White House ? 
+15788 0 What is semolina ? 
+15789 1 What fruit is Melba sauce made from ? 
+15790 0 What is Ursa Major ? 
+15791 4 What is the percentage of water content in the human body ? 
+15792 4 How much does water weigh ? 
+15793 1 What was President Lyndon Johnson 's reform program called ? 
+15794 4 What is the murder rate in Windsor , Ontario ? 
+15795 3 Who is the only president to serve 2 non-consecutive terms ? 
+15796 4 What is the population of Australia ? 
+15797 3 Who painted the ceiling of the Sistine Chapel ? 
+15798 1 Name a stimulant 
+15799 0 What is the effect of volcanoes on the climate ? 
+15800 4 What year did the Andy Griffith show begin ? 
+15801 0 What is acid rain ? 
+15802 4 What is the date of Mexico 's independence ? 
+15803 5 What is the location of Lake Champlain ? 
+15804 1 What is the Illinois state flower ? 
+15805 1 What is Maryland 's state bird ? 
+15806 0 What is quicksilver ? 
+15807 3 Who wrote `` The Divine Comedy '' ? 
+15808 4 What is the speed of light ? 
+15809 4 What is the width of a football field ? 
+15810 0 Why in tennis are zero points called love ? 
+15811 1 What kind of dog was Toto in the Wizard of Oz ? 
+15812 0 What is a thyroid ? 
+15813 0 What does ciao mean ? 
+15814 1 What is the only artery that carries blue blood from the heart to the lungs ? 
+15815 4 How often does Old Faithful erupt at Yellowstone National Park ? 
+15816 0 What is acetic acid ? 
+15817 4 What is the elevation of St. Louis , MO ? 
+15818 1 What color does litmus paper turn when it comes into contact with a strong acid ? 
+15819 1 What are the colors of the German flag ? 
+15820 0 What is the Moulin Rouge ? 
+15821 5 What soviet seaport is on the Black Sea ? 
+15822 4 What is the atomic weight of silver ? 
+15823 1 What currency do they use in Brazil ? 
+15824 0 What are pathogens ? 
+15825 0 What is mad cow disease ? 
+15826 1 Name a food high in zinc 
+15827 4 When did North Carolina enter the union ? 
+15828 5 Where do apple snails live ? 
+15829 0 What are ethics ? 
+15830 2 What does CPR stand for ? 
+15831 0 What is an annuity ? 
+15832 3 Who killed John F. Kennedy ? 
+15833 3 Who was the first vice president of the U.S. ? 
+15834 1 What birthstone is turquoise ? 
+15835 3 Who was the first US President to ride in an automobile to his inauguration ? 
+15836 4 How old was the youngest president of the United States ? 
+15837 4 When was Ulysses S. Grant born ? 
+15838 0 What is Muscular Dystrophy ? 
+15839 3 Who lived in the Neuschwanstein castle ? 
+15840 0 What is propylene glycol ? 
+15841 0 What is a panic disorder ? 
+15842 3 Who invented the instant Polaroid camera ? 
+15843 0 What is a carcinogen ? 
+15844 1 What is a baby lion called ? 
+15845 4 What is the world 's population ? 
+15846 0 What is nepotism ? 
+15847 0 What is die-casting ? 
+15848 0 What is myopia ? 
+15849 4 What is the sales tax rate in New York ? 
+15850 4 Developing nations comprise what percentage of the world 's population ? 
+15851 5 What is the fourth highest mountain in the world ? 
+15852 3 What is Shakespeare 's nickname ? 
+15853 1 What is the heaviest naturally occurring element ? 
+15854 4 When is Father 's Day ? 
+15855 2 What does the acronym NASA stand for ? 
+15856 4 How long is the Columbia River in miles ? 
+15857 5 What city 's newspaper is called `` The Star '' ? 
+15858 0 What is carbon dioxide ? 
+15859 5 Where is the Mason/Dixon line ? 
+15860 4 When was the Boston tea party ? 
+15861 0 What is metabolism ? 
+15862 3 Which U.S.A. president appeared on `` Laugh-In '' ? 
+15863 1 What are cigarettes made of ? 
+15864 5 What is the capital of Zimbabwe ? 
+15865 2 What does NASA stand for ? 
+15866 1 What is the state flower of Michigan ? 
+15867 0 What are semiconductors ? 
+15868 0 What is nuclear power ? 
+15869 0 What is a tsunami ? 
+15870 3 Who is the congressman from state of Texas on the armed forces committee ? 
+15871 3 Who was president in 1913 ? 
+15872 4 When was the first kidney transplant ? 
+15873 5 What are Canada 's two territories ? 
+15874 1 What was the name of the plane Lindbergh flew solo across the Atlantic ? 
+15875 0 What is genocide ? 
+15876 5 What continent is Argentina on ? 
+15877 1 What monastery was raided by Vikings in the late eighth century ? 
+15878 0 What is an earthquake ? 
+15879 5 Where is the tallest roller coaster located ? 
+15880 0 What are enzymes ? 
+15881 3 Who discovered oxygen ? 
+15882 0 What is bangers and mash ? 
+15883 1 What is the name given to the Tiger at Louisiana State University ? 
+15884 5 Where are the British crown jewels kept ? 
+15885 3 Who was the first person to reach the North Pole ? 
+15886 0 What is an ulcer ? 
+15887 0 What is vertigo ? 
+15888 0 What is the spirometer test ? 
+15889 4 When is the official first day of summer ? 
+15890 2 What does the abbreviation SOS mean ? 
+15891 1 What is the smallest bird in Britain ? 
+15892 3 Who invented Trivial Pursuit ? 
+15893 1 What gasses are in the troposphere ? 
+15894 5 Which country has the most water pollution ? 
+15895 1 What is the scientific name for elephant ? 
+15896 3 Who is the actress known for her role in the movie `` Gypsy '' ? 
+15897 1 What breed of hunting dog did the Beverly Hillbillies own ? 
+15898 5 What is the rainiest place on Earth ? 
+15899 3 Who was the first African American to win the Nobel Prize in literature ? 
+15900 4 When is St. Patrick 's Day ? 
+15901 1 What was FDR 's dog 's name ? 
+15902 1 What colors need to be mixed to get the color pink ? 
+15903 1 What is the most popular sport in Japan ? 
+15904 1 What is the active ingredient in baking soda ? 
+15905 4 When was Thomas Jefferson born ? 
+15906 4 How cold should a refrigerator be ? 
+15907 4 When was the telephone invented ? 
+15908 1 What is the most common eye color ? 
+15909 5 Where was the first golf course in the United States ? 
+15910 0 What is schizophrenia ? 
+15911 0 What is angiotensin ? 
+15912 3 What did Jesse Jackson organize ? 
+15913 1 What is New York 's state bird ? 
+15914 5 What is the National Park in Utah ? 
+15915 4 What is Susan B. Anthony 's birthday ? 
+15916 5 In which state would you find the Catskill Mountains ? 
+15917 1 What do you call a word that is spelled the same backwards and forwards ? 
+15918 0 What are pediatricians ? 
+15919 3 What chain store is headquartered in Bentonville , Arkansas ? 
+15920 0 What are solar cells ? 
+15921 0 What is compounded interest ? 
+15922 0 What are capers ? 
+15923 0 What is an antigen ? 
+15924 1 What currency does Luxembourg use ? 
+15925 4 What is the population of Venezuela ? 
+15926 1 What type of polymer is used for bulletproof vests ? 
+15927 1 What currency does Argentina use ? 
+15928 0 What is a thermometer ? 
+15929 5 What Canadian city has the largest population ? 
+15930 1 What color are crickets ? 
+15931 5 Which country gave New York the Statue of Liberty ? 
+15932 1 What was the name of the first U.S. satellite sent into space ? 
+15933 1 What precious stone is a form of pure carbon ? 
+15934 1 What kind of gas is in a fluorescent bulb ? 
+15935 0 What is rheumatoid arthritis ? 
+15936 5 What river runs through Rowe , Italy ? 
+15937 0 What is cerebral palsy ? 
+15938 5 What city is also known as `` The Gateway to the West '' ? 
+15939 4 How far away is the moon ? 
+15940 1 What is the source of natural gas ? 
+15941 1 In what spacecraft did U.S. astronaut Alan Shepard make his historic 1961 flight ? 
+15942 0 What is pectin ? 
+15943 0 What is bio-diversity ? 
+15944 1 What 's the easiest way to remove wallpaper ? 
+15945 4 What year did the Titanic start on its journey ? 
+15946 4 How much of an apple is water ? 
+15947 3 Who was the 22nd President of the US ? 
+15948 1 What is the money they use in Zambia ? 
+15949 4 How many feet in a mile ? 
+15950 1 What is the birthstone of October ? 
+15951 0 What is e-coli ? 

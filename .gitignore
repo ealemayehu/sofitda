@@ -1,0 +1,14 @@
+data/stage1/**
+data/stage3/aug*/**
+data/stage3/genrank*/**
+data/embeddings/glove.6B.100d.txt
+!data/stage3/quora/**
+output
+java/bin
+java/.settings
+**/.DS_Store
+**/*.class
+**/.pyc
+package.tar
+*.pyc
+.env

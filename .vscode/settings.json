@@ -1,0 +1,13 @@
+{
+    "python.formatting.autopep8Path": "/Users/eyor/.pyenv/shims/autopep8",
+    "python.autoComplete.extraPaths": ["/Users/eyor/.pyenv/shims/python"],
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "ms-python.python",
+    "python.formatting.provider": "none",
+    "python.analysis.extraPaths": [
+        "/Users/eyor/.pyenv/shims/python"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
+}
